@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar';
+import Counter from './components/Counter';
 export default class App extends Component {
   render() {
     return (
-     <Navbar />
+     <Counter />
     )
   }
 }
