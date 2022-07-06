@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import Navbar from './components/Navbar';
 export default class App extends Component {
-  a = "Anusha"
   render() {
     return (
-      <div>Name - {this.a}</div>
+     <Navbar />
     )
   }
 }
